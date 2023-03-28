@@ -1,0 +1,70 @@
+  body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(to bottom,lightgreen,lightblue );
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .container{
+     background-color: rgb(221, 221, 227);
+     /* background-image:url("image.jpeg") ; */
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0 10px 20px rgba(0,0,0,0.6);
+     width: 80%;
+     margin: 10px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align:center;
+
+  }
+  h2{
+    font-weight: 400;
+    
+    
+  }
+  .input{
+    padding: 10px 10px;
+    font-size: 18px;
+    background-color: rgb(193, 240, 205);
+    border-radius: 7px;
+    text-align: center;
+  }
+  .errorMessage{
+     color: red;
+     font-weight: 600;
+     margin: 15px;
+     display: none;
+  }
+  .btn{
+    text-transform: uppercase;
+    font-size: 18px;
+    width: 200px;
+    height: 40px;
+    margin: 20px 0;
+    border-radius: 5px;
+    background-color: black;
+    color: aliceblue;
+  }
+  .btn:hover{
+    color: aliceblue;
+    background-color: green;
+    cursor: pointer;
+    transition: background-color 200ms ease-in-out;
+  }
+  .gallery img {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 7px;
+    margin: 5px;
+  }
+  .gallery{
+    display: none;
+  }
+  
